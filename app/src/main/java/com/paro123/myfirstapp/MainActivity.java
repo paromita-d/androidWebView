@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         wView = findViewById(R.id.webView);
         wView.setWebViewClient(new WebViewClient());
-        wView.loadUrl("https://facebook.com");
+        wView.loadUrl("https://www.learnmet.com/mLogin.do");
 
         WebSettings webSettings = wView.getSettings();
         webSettings.setJavaScriptCanOpenWindowsAutomatically(true);
